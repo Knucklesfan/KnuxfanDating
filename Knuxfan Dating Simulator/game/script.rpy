@@ -17,6 +17,8 @@ define p = Character("Pickle")
 define bus = Character("Programmer Man")
 define discordceo = Character("Discord CEO")
 define question = Character("????")
+define mc = Character("Mi-san")
+
 
 
 # The game starts here.
@@ -64,7 +66,9 @@ label intro:
     scene black
     play music "audio/boom.ogg"
     centered"{size=+50}{cps=20}{i}April 21st, 2023{/i}{/cps}{/size}"
-
+    scene schooloutside
+    show pissed
+    mc"fuck"
     # This ends the game.
 
     return
