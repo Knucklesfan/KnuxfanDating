@@ -113,7 +113,7 @@ label start:
     bus "Why, it's great! I hired these awesome guys to moderate channels and everythin-"
     stop music fadeout 1.0
     show hiddencorden at center
-    question"no."retro lounge
+    question"no."
     discordceo "n.... no, your lord of darkness?"
     question"I said no."
     play music "audio/ofortuna.mp3"
@@ -123,7 +123,7 @@ label start:
     discordceo"s- sir? have you lost your mind?"
     question"no... I'm satan"
     stop music fadeout 0.0
-label intro:retro lounge
+label intro:
     scene black
     play sound "audio/boom.ogg"
     centered"{size=+50}{cps=20}{i}April 21st, 2023{/i}{/cps}{/size}"
@@ -346,3 +346,12 @@ label duranghelp:
     show durangpensive at right
     d "you okay?"
     mc "barely alive, but yeah. The stinch from that man was unbearable."
+    d "listen man, I just recently transferred here too, and lemme tell you this is an awful school. The cafeteria food is borderline poison and i'm not even gonna lie to you about what's in the urinals: it's lead."
+    hide wtf
+    show shocked at left
+    hide durangpensive
+    show durangomad at right
+    mc "really? But this was supposed to be my dream school, full of attractive men and tons of fun games to play with friends!"
+    d "you were WRONG! This entire school is nothing but a bunch of 500lb reddit mod school dropouts! THE COMBINED IQ OF THE PEOPLE HERE IS 42."
+    hide durangomad
+    show memedurango
